@@ -17,3 +17,5 @@ d66ac00c63454fada84ffa5179131a29
 
 - mvn wrapper
 modify mvn test to ./mvnw test
+
+remember add .mvn's jar file add into git repository
