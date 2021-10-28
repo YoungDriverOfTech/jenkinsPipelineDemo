@@ -1,6 +1,6 @@
 - start jenkins
 ```
-docker run -u 0 -p 8081:8080 -v `pwd`/jenkins-data:/var/jenkins_home jenkins/jenkins
+docker run -u 0 -d -p 8081:8080 -v `pwd`/jenkins-data:/var/jenkins_home jenkins/jenkins
 ```
 
 - get key
